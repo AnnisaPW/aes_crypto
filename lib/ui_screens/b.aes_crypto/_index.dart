@@ -1,6 +1,5 @@
 import 'package:clipboard/clipboard.dart';
 import 'package:crypto_app/ui_widgets/spaces/_index.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:keyboard_dismisser/keyboard_dismisser.dart';
 import 'package:states_rebuilder/states_rebuilder.dart';

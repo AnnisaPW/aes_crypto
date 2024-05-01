@@ -39,20 +39,4 @@ class AesCryptoData {
 
   final rxCipherText = RM.injectTextEditing();
   final rxPlainText = RM.injectTextEditing();
-
-  // final rxPlainTextDec = RM.injectTextEditing(
-  //   validateOnTyping: true,
-  //   validators: [
-  //     Validate.isNotEmpty,
-  //   ],
-  // );
-
-  // final rxSecretKeyDec = RM.injectTextEditing(
-  //   validateOnTyping: true,
-  //   validators: [
-  //     Validate.isNotEmpty,
-  //   ],
-  // );
-
-  // final rxCipherTextDec = RM.injectTextEditing();
 }
