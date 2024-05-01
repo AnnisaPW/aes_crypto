@@ -1,7 +1,7 @@
 part of '_index.dart';
 
 class AesCryptoData {
-  final rxTitle = 'Aes Crypto'.inj();
+  final rxTitle = 'Advanced Encryption Standard'.inj();
 
   final rxCounter = 0.inj();
 
