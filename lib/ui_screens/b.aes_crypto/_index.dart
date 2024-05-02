@@ -17,6 +17,7 @@ part 'widgets/c.aes_crypto.text.dart';
 part 'widgets/d.aes_crypto.secret_key.dart';
 part 'widgets/e.aes_crypto.cipher_text.dart';
 part 'widgets/f.aes_crypto.plain_text.dart';
+part 'widgets/g.aes_crypto.button.dart';
 
 AesCryptoData get _dt => Data.aesCrypto.st;
 AesCryptoCtrl get _ct => Ctrl.aesCrypto;
