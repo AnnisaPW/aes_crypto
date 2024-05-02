@@ -32,8 +32,7 @@ class AesCryptoData {
     validateOnTyping: true,
     validators: [
       Validate.isNotEmpty,
-      Validate.minChars,
-      Validate.maxChars,
+      Validate.mustBeEqual,
     ],
   );
 

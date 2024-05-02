@@ -17,7 +17,8 @@ class AesCryptoSecretKey extends StatelessWidget {
           isDense: true,
           errorText: _dt.rxSecretKey.error,
           labelText: 'Secret key',
-          hintText: 'Enter secret key',
+          hintText: 'Enter your 32 characters secret key',
+          alignLabelWithHint: true,
           suffixIcon: OnReactive(
             () => _dt.rxSecretKey.text.isNotEmpty
                 ? IconButton(

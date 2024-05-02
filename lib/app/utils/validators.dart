@@ -44,10 +44,10 @@ class Validate {
     return null;
   }
 
-  static String? minChars(String? str) {
+  static String? mustBeEqual(String? str) {
     const min = 32;
-    if (str != null && str.length < min) {
-      return 'Key length min $min characters';
+    if (str != null && str.length != min) {
+      return 'secret key length must be $min characters';
     }
     return null;
   }

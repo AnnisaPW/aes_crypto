@@ -18,6 +18,7 @@ class AesCryptoText extends StatelessWidget {
           errorText: _dt.rxText.error,
           labelText: 'Text',
           hintText: 'Enter the text for encryption',
+          alignLabelWithHint: true,
           suffixIcon: OnReactive(
             () => _dt.rxText.text.isNotEmpty
                 ? IconButton(
