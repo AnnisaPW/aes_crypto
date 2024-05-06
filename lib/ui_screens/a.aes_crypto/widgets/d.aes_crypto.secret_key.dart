@@ -12,6 +12,7 @@ class AesCryptoSecretKey extends StatelessWidget {
       builder: () => TextField(
         controller: _dt.rxSecretKey.controller,
         focusNode: _dt.rxSecretKey.focusNode,
+        maxLength: 32,
         onEditingComplete: () => _dt.rxSecretKey.focusNode.unfocus(),
         decoration: InputDecoration(
           isDense: true,
