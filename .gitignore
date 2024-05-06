@@ -30,6 +30,9 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+.readme_template/
+.fttemplates/
+
 
 # Symbolication related
 app.*.symbols
